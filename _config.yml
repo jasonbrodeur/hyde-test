@@ -4,17 +4,17 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-#relative_permalinks: true
+relative_permalinks: true
 
 # Setup
-title:            Jay's Hyde Example
-tagline:          'Does this work?'
-description:      'I think it does!'
-url:              https://github.io/jasonbrodeur/hyde-test/
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Jay Brodeur'
+  name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
 paginate:         5
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/jasonbrodeur/hyde-test
+  repo:           https://github.com/poole/hyde
