@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Jay's Hyde Example
+tagline:          'Does this work?'
+description:      'I think it does!'
+url:              https://github.io/jasonbrodeur/hyde-test/
+baseurl:          /
+
+author:
+  name:           'Jay Brodeur'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/jasonbrodeur/hyde-test
