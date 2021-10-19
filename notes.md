@@ -1,3 +1,8 @@
+---
+layout: page
+title: Customization notes
+permalink: notes.html
+---
 
 ### What I did to make About page work: 
 - Added another item in the front matter of About page: ```permalink: about.html```
