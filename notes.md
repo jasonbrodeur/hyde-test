@@ -1,0 +1,11 @@
+
+### What I did to make About page work: 
+- Added another item in the front matter of About page: ```permalink: about.html```
+- Modified ```/_layouts/sidebar.html``` to replace line: 
+- Commented out:   
+```<!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> -->```  
+- Replaced with:  
+``` <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.permalink }}">{{ node.title }}</a```  
+
+- Also, commented out line ```<!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->``` to remove Download link.  
+- and commented out line: ```<!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->``` to remove version information. 
