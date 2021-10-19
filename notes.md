@@ -1,6 +1,16 @@
 
 ### What I did to make About page work: 
 - Added another item in the front matter of About page: ```permalink: about.html```
+- Now it looks like: 
+```
+---
+layout: page
+title: About
+permalink: about.html
+---
+```
+you'll have to do something similar with all additional pages that have layout 'page' (not with index.html, though).
+
 - Modified ```/_layouts/sidebar.html``` to replace line: 
 - Commented out:   
 ```<!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> -->```  
