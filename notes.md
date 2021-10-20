@@ -16,7 +16,7 @@ permalink: about.html
 ```
 you'll have to do something similar with all additional pages that have layout 'page' (not with index.html, though).
 
-- Modified ```/_layouts/sidebar.html``` to comment out 
+- Modified ```/_includes/sidebar.html``` to comment out 
   - ```<!-- <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a> -->``` 
 - and replace it with 
   - ``` <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.permalink }}">{{ node.title }}</a``` 
